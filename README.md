@@ -744,7 +744,7 @@ plt.show()
 ```
 
 
-![](EDA Figures/output_31_0.png)
+![png](EDA%20Figures/output_31_0.png)
 
 Telling from the above graph, there is very large range of purchase amounts, but most are concentrated below $200. Let's zoom in a bit.
 

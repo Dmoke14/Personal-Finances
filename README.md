@@ -762,7 +762,7 @@ plt.show()
 ```
 
 
-![png](EDA Figures/output_33_0.png)
+![png](EDA%20Figures/output_33_0.png)
 
 
 This zoomed in histogram shows us that the vast majority of purchases are under $50. 
@@ -789,7 +789,7 @@ plt.show()
 ```
 
 
-![png](EDA Figures/output_36_0.png)
+![png](EDA%20Figures/output_36_0.png)
 
 
 Let's see what kind of information we can get from the above graph.
@@ -816,7 +816,7 @@ plt.show()
 ```
 
 
-![png](EDA Figures/output_39_0.png)
+![png](EDA%20Figures/output_39_0.png)
 
 
 It looks like the "Fast Food or Snacks" 'Category' has the most expenses, just as we saw with the numerical summaries. This graph also makes it easier to see a sort of hierarchy in how I spent money. For example, it's easy to see that I spent more money on "Pizza" in a year than I did on "School Stuff".
@@ -845,7 +845,7 @@ plt.show()
 ```
 
 
-![png](EDA Figures/output_42_0.png)
+![png](EDA%20Figures/output_42_0.png)
 
 
 According to the graph above, I spent just a little more money when I was Employed than when I was not. Normally, one would probably expect a larger margin here, but as I have stated previously, I collected more money through unemployment insurance than what I was paid at work (and I'm bad at saving money).

@@ -3,7 +3,7 @@
 
 ## Introduction and Data Collection
 
-How much money am I going to spend on various categories over the first three months of 2021? That is the question I would like to solve using the Data Analytics skills I have learned this semester. This answer will come from predicting 'Amount' values from different models. The data I have available to help answer this question comes from my monthly transaction reports from my Apple Card since November 2019, as I use my Apple Card for most purchases. 
+How much money am I going to spend on various categories over the first three months of 2021? That is the question I would like to solve using the Data Analytics skills I have learned this semester. I am always trying to save (well, most of the time), and seeing how much money I may spend in future months may help me understand how I should be spending/saving my money now. The data I have available to help answer this question comes from my monthly transaction reports from my Apple Card since November 2019, as I use my Apple Card for most purchases. The answer will come from predicting 'Amount (USD)' values from different predictive models.
 
 The first step in any analytical project is to read in the Data and necessary Libraries. This is done and shown below.
 
@@ -1671,7 +1671,7 @@ The final modeling data has 5,616 rows.
 
 ## Modeling
 
-Now, it is time to begin modeling. We will split the data I have wrangled and reformatted (also called the training data) into a train and test set to evaluate the Mean Squared Error and the Mean Absolute Error metrics from the 4 different models. These metrics are chose to evaluate the models because they essentially tell us how clost the predictions are to the actual values. I will use a 80/20 split for the data and a random state of 602. The four models I will be comparing are Linear Regression, Lasso Regression, K Nearest Neighbors, and Decision Trees.
+Now, it is time to begin modeling. We will split the data I have wrangled and reformatted (also called the training data) into a train and test set to evaluate the Mean Squared Error and the Mean Absolute Error metrics from the 4 different models. These metrics are chosen to evaluate the models because they essentially tell us how close the predictions are to the actual values. I will use an 80/20 split for the data and a random state of 602. The four models I will be comparing are Linear Regression, Lasso Regression, K Nearest Neighbors, and Decision Trees. These models were chosen based on their ability to predict a numeric response with numeric and factor/dummy explanatory variables. Originally, I had toyed with parameters for the models, but after fixing the modeling data to be more representative, changing parameters for the Linear or Lasso Regression models did not improve the metrics, so I chose to leave them as default. Additionally, the 'n_neighbors' parameter in the KNN model was originally 400, but lowering it to 200 saved some computation time while still producing as good of metrics.
 
 
 ```python
@@ -2369,7 +2369,11 @@ Finally, the Decision Tree model also produces some practical values, for the mo
 
 So, how much money am I going to spend? Knowing myself, while I may not be the best at saving, I know I will not be spending anything close to what the Linear Regression model predicts. Some combination of K Nearest Neighbors and Decision Trees appears to be the best prediction. Taking some values from one model and others from the other, I think the most practical predictions would come from both of these models working together. I am interested in how my actual expenses compare with these predictions.
 
-## Biases, Limitations, and Future Recommendations
+## Conclusion, Biases, Limitations, and Future Recommendations
+
+**Conclusion:**
+
+To conclude this project, of course, we cannot say exactly which model did the best, nor can we state with confidence exactly how much money I will spend in each of the above categories. This was an analysis in unsupervised learning, and I will not be able to asses the predictions' accuracy until Apple presents me with March 2021's transaction report. While we do not know the exact amount of money I will be spending, having spent time analyzing my expenses has certainly made me much more aware of my habits and evident trends. 
 
 **Biases:**
 

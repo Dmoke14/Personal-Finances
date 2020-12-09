@@ -49,6 +49,8 @@ os.listdir('APPLE Card Spending/')
 
 
 
+*Note: The above data is not included in the repository. The data consists of every transaction I have made for about a year. And while I have nothing to hide, such information I do consider confidential. Some peeks of the data, whether to illustrate structure or function are shown in tables and graphs.*
+
 For the Data to be useful, all separate tables listed out above need to be concatenated into one. So, let's do that. Let's also take a look at how the data is structured.
 
 
@@ -1769,7 +1771,7 @@ future_data = future_data.merge(pd.get_dummies(future_data['Category']), left_in
 # Drop unneeded Columns
 future_data = future_data.drop(columns = ['Transaction Date', 'Category'])
 
-# Peak at the Data (Last of the first day, First of the second day)
+# Peek at the Data (Last of the first day, First of the second day)
 future_data.iloc[16:18]
 ```
 
@@ -1860,7 +1862,7 @@ future_data.iloc[16:18]
 
 
 
-The sneak peak at the data above shows the last row for 01/01/21 and the first tor for 01/02/21. Each day will need to be repeated 16 times to account for possible purchases in each 'Category', just like the modeling data.
+The sneak peek at the data above shows the last row for 01/01/21 and the first tor for 01/02/21. Each day will need to be repeated 16 times to account for possible purchases in each 'Category', just like the modeling data.
 
 ## Predictions
 

@@ -2375,7 +2375,7 @@ So, how much money am I going to spend? Knowing myself, while I may not be the b
 
 **Conclusion:**
 
-To conclude this project, of course, we cannot say exactly which model did the best, nor can we state with confidence exactly how much money I will spend in each of the above categories. This was an analysis in unsupervised learning, and I will not be able to asses the predictions' accuracy until Apple presents me with March 2021's transaction report. While we do not know the exact amount of money I will be spending, having spent time analyzing my expenses has certainly made me much more aware of my habits and evident trends. 
+To conclude this project, of course, we cannot say exactly which model did the best, nor can we state with confidence exactly how much money I will spend in each of the above categories. This was an analysis in unsupervised learning, and I will not be able to assess the predictions' accuracy until Apple presents me with March 2021's transaction report. While we do not know the exact amount of money I will be spending, having spent time analyzing my expenses has certainly made me much more aware of my habits and evident trends. 
 
 **Biases:**
 
